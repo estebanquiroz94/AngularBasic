@@ -1,0 +1,18 @@
+<div>
+  <div class="col s2 m6 l10">
+    <h5>Tareas para Hoy</h5>
+  </div>
+  <div class="col s2 m6 l2 calendar">
+      <i class="material-icons">calendar_today</i>
+  </div>
+  <div class="col s2 m6 l12">
+    <div class="collection">
+      <ul>
+        <li *ngFor="let tasks of pendingTask">
+          <i class="material-icons">star</i>
+          <span>{{tasks.titulo}}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+.container-inicio{
+    margin-top: 20px;
+    margin-left: 120px;
+    width: 80%;
+    height: 3em;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tareas-pendientes{
+    margin-left: 10px;
+}

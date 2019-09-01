@@ -1,0 +1,21 @@
+<div class="container-inicio white">
+  <div class="col s2 m6 l12 white darken-1 black-text z-depth-2 form">
+    <div class ="row">
+      <div class="col s2 m6 l12">
+        <h4>{{groupName}}</h4>
+        <hr>
+        <p>Tareas asociadas al grupo</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="collection">
+        <ul>
+          <li class=" collection-item avatar" *ngFor="let task of taskByGroup">
+              <i class="material-icons icon-orange">start</i>
+              <span class="title text-lighten-2">{{task.descripcion}}</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

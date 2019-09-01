@@ -1,0 +1,28 @@
+h4{
+    color:#47D5FF;
+}
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+.add{
+    background-color: white;
+    border-radius: 90%;
+    border: 1x solid grey;
+    padding:10px;
+    margin-left: 40px;  
+}
+
+.collection .collection-item.avatar{
+    min-height: 60px;
+    cursor: pointer;
+}
+.card-content{
+    height: 40em;
+}
+.card-action{
+    min-height: 6em;
+}

@@ -1,0 +1,37 @@
+.container{
+    align-content: center;
+    margin-left: 120px;
+    width: 80%;
+    height: 3em;
+    background-color: gray;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.logo-container{
+    width: 10%;
+    height: 3px;
+}
+
+.logo-container h4{
+    color: white;
+}
+
+.menu{
+    width: 40%;
+}
+
+.menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.menu ul li{
+    color:white;
+    font-size: 1.3em;
+}
